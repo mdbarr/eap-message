@@ -1,0 +1,19 @@
+{
+  "name": "eap-message",
+  "version": "0.1.0",
+  "description": "Extensible Authentication Protocol Message Encode and Decoder",
+  "main": "index.js",
+  "repository": "git@github.com:mdbarr/eap-message.git",
+  "author": "Mark Barr <mark@hyperingenuity.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "barrkeep": "^2.3.2",
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "jest"
+  }
+}
